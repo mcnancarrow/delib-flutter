@@ -49,3 +49,9 @@ ios/flutter_export_environment.sh
 
 # Log files
 flutter_*.log
+
+# Android signing - NEVER commit these!
+android/key.properties
+android/keystore/
+*.jks
+*.keystore
